@@ -13,7 +13,7 @@ import java.util.logging.Logger;
 public class DefaultDoctorRepository implements DoctorRepository {
     Logger logger = Logger.getLogger(DefaultDoctorRepository.class.getName());
 
-    private List<Doctor> doctors = new ArrayList<>();
+    private final List<Doctor> doctors = new ArrayList<>();
 
     @Override
     public void save(Doctor doctor){

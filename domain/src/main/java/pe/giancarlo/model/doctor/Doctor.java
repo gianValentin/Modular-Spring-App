@@ -1,7 +1,5 @@
 package pe.giancarlo.model.doctor;
 
-import java.util.Random;
-
 public class Doctor {
     private int id;
     private String name;
